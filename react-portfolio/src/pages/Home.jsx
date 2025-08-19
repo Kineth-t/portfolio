@@ -4,7 +4,9 @@ export default function HomePage() {
     return (
         <>  
             <header className="intro">
-                <h1 className="main-headline">Home</h1>
+                <h1 className="main-headline">Hello welcome to my portfolio website</h1>
+                <div className="my-photo-container"><img className='my-photo' src='./src/img/me.jpeg'/></div>
+                <h2 className="headline-text">Hello welcome to my portfolio website</h2>
             </header>
             <div>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.

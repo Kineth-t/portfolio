@@ -8,10 +8,12 @@
     animation: fade-out linear;
     animation-timeline: view();
     animation-range: exit;
-    margin-bottom: calc(20vh);
+    margin-bottom: calc(30vh);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    color: white;
 }
 
 @keyframes fade-out {
@@ -23,4 +25,46 @@
         opacity: 0;
         transform: scale(1.5);
     }
+}
+
+.my-photo {
+    width: 200px;
+    height: 200px;
+    /* border:2px solid white; */
+    border-radius: 5px;
+}
+
+.my-photo-container {
+    position: relative;
+    margin: 0;
+    display: flex;
+    place-content: center;
+}
+
+.my-photo-container::after, .my-photo-container::before {
+    content: '';
+    width: 200px;
+    height: 200px;
+    background: #333333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 5px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.my-photo-container::before {
+    filter: blur(4rem);
+    opacity: 1;
+}
+
+.main-headline {
+    text-align: center;
+    padding: 0 10px
+}
+
+.headline-text {
+    text-align: center;
 }

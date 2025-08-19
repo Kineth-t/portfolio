@@ -1,12 +1,27 @@
 .nav-bar {
     margin: 0;
-    background: black;
+    background: #1a1a1a;
+    border-bottom: 1px solid #333333;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
     gap: 10px;
+}
+
+.nav-bar a {
+  color: #ffffff;
+  /* padding: 1rem; */
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: #00d4ff;
+}
+
+.nav-bar a.active {
+    text-decoration: underline;
 }
 
 .nav-bar main {

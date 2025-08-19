@@ -5,8 +5,8 @@ export default function NavBar() {
     return (
         <>
             <ul className="nav-bar">
-                <NavLink to="">Home</NavLink>
-                <NavLink to="contact">Contact</NavLink>
+                <NavLink to="" className={({isActive}) => isActive ? "active" : ''} >Home</NavLink>
+                <NavLink to="contact" className={({isActive}) => isActive ? "active" : ''}>Contact</NavLink>
             </ul>
             <main>
                 <Outlet />
