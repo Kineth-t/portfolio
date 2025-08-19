@@ -1,0 +1,26 @@
+.intro {
+    background-image: url("./src/img/home-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit;
+    margin-bottom: calc(20vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}

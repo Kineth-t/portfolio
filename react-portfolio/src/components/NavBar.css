@@ -1,0 +1,15 @@
+.nav-bar {
+    margin: 0;
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.nav-bar main {
+    place-items: center;
+}
+
