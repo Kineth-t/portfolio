@@ -1,3 +1,4 @@
+import Projects from '../components/Projects'
 import './Home.css'
 
 export default function HomePage() {
@@ -8,51 +9,54 @@ export default function HomePage() {
                 <div className="my-photo-container"><img className='my-photo' src='./src/img/me.jpeg'/></div>
                 <h2 className="headline-text">Hello welcome to my portfolio website</h2>
             </header>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-            </div>
+            <main>
+                <Projects />
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
+                </div>
+            </main>
         </>
     )
 }

@@ -18,10 +18,17 @@
 
 .nav-bar a:hover {
   color: #00d4ff;
+  animation: underline;
+}
+
+@keyframes underline {
+    100%{
+
+    }
 }
 
 .nav-bar a.active {
-    text-decoration: underline;
+    border-bottom: 3px solid #ffffff;
 }
 
 .nav-bar main {

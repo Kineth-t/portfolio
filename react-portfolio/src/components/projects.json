@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Hearthstone tournament",
+    "description": "A tournament webpage for an online card game, called Hearthstone.",
+    "stack": "Java, SpringBoot, Thymeleaf, Bootstrap CSS, PostgreSQL, Docker",
+    "image": "./src/img/unify-Large.jpeg"
+  },
+  {
+    "name": "Unify",
+    "description": "A simple website that recommends a university that suits you based on questions filled in questionnaire",
+    "stack": "Python, FastAPI, React, Tailwind CSS, Supabase",
+    "image": "./src/img/unify-Large.jpeg"
+  }
+]
