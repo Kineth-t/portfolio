@@ -1,13 +1,25 @@
 [
   {
-    "name": "Hearthstone tournament",
-    "description": "A tournament webpage for an online card game, called Hearthstone.",
+    "name": "Hearthstone Tournament",
+    "description": "A website that facilitates Hearthstone card game tournaments with Elo-based matching and ranking system.",
     "stack": "Java, SpringBoot, Thymeleaf, Bootstrap CSS, PostgreSQL, Docker",
     "image": "./src/img/unify-Large.jpeg"
   },
   {
     "name": "Unify",
-    "description": "A simple website that recommends a university that suits you based on questions filled in questionnaire",
+    "description": "A simple website that recommends a university based on personality and needs of a prospective university student",
+    "stack": "Python, FastAPI, React, Tailwind CSS, Supabase",
+    "image": "./src/img/unify-Large.jpeg"
+  },
+  {
+    "name": "AInalyse",
+    "description": "A webpage that helps users analyse contracts.",
+    "stack": "Python, FastAPI, React, Tailwind CSS, Supabase",
+    "image": "./src/img/unify-Large.jpeg"
+  },
+  {
+    "name": "Food Classifier 101",
+    "description": "A simple website that takes in an image of a food and classifying it into 1 of the 101 types of food data.",
     "stack": "Python, FastAPI, React, Tailwind CSS, Supabase",
     "image": "./src/img/unify-Large.jpeg"
   }

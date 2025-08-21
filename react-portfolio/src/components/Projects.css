@@ -1,40 +1,58 @@
+.project-details::-webkit-scrollbar {
+      display: none;
+}
+
 .projects-container {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
     place-items: center;
-    height: 800vh;;
+    height: 355vh;
     background: #1a1a1a;
+    position: relative;
 }
-
 
 .project-cards {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
     width: 100%;
-    position: relative;
+    margin-bottom: 80vh;
+    position: sticky;
+    top: 0;
 }
 
 .project-card {
     position: absolute;
     width: 100%;
+    height: 70vh;
     display: flex;
-    place-items: center;
+    align-items: center;
     flex-wrap: wrap;
     text-align: justify;
-    /* border:20px solid white; */
     box-sizing: border-box;
+    animation: slideAndFade linear both;
+    animation-timeline: scroll();
+    animation-range: calc(150vh + (var(--position) * 50vh)) calc((150vh + (var(--position) + 1) * 50vh));
+    transform: translateX(0%);
+    opacity: 1;
 }
+
+.project-card:last-child {
+    animation: none;
+}
+
 
 .project-details {
     background: #333333;
-    padding: 1.5rem;
     box-sizing: border-box;
+    padding: 1.5rem;
     width: calc(50% - 20px);
+    height: 300px;
     margin-right: 20px;
     border-radius: 30px;
-    box-shadow: 20px 20px 20px black;
+    box-shadow: 15px 15px 15px black;
+    overflow: auto;
 }
 
 .project-card img {
@@ -42,16 +60,40 @@
     width: 50%;
 }
 
-@media (max-width: 500px) {
+@keyframes slideAndFade {
+    0% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .project-cards {
+        gap: 100px;
+    }
+
     .project-details,
     .project-card img {
         width: 100%; /* Stack them to 100% width when the viewport is narrow */
     }
-    .project-card {
-        flex-direction: column; /* Stack the items vertically */
-        gap: 20px;
-    }
+
     .project-details {
-        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-card {
+        animation: none !important;
+        transform: translateX(0%) !important;
+        opacity: 1 !important;
+        position: static;
     }
 }
