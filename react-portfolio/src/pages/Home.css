@@ -16,6 +16,13 @@
     color: white;
 }
 
+.intro h1, .intro h2, .intro h3 {
+    background: linear-gradient(to right,#D8D8D8,#C0C0C0,#ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colourTransition 6s ease infinite;
+}
+
 html, body {
     overflow-x: hidden;  /* Prevent horizontal scroll */
     width: 100%;  /* Make sure body takes full width */
@@ -36,7 +43,6 @@ html, body {
 .my-photo {
     width: 200px;
     height: 200px;
-    /* border:2px solid white; */
     border-radius: 50%;
 }
 
@@ -71,6 +77,26 @@ html, body {
     padding: 0 10px
 }
 
-.headline-text {
+.headline-text, .headline-subtext {
     text-align: center;
+}
+
+.intro .typewriter {
+  background: linear-gradient(
+    -45deg,
+    #fff1a8,
+    #ffd700,
+    #ffb700,
+    #fff1a8
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colourTransition 6s ease infinite;
+}
+
+@keyframes colourTransition {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }

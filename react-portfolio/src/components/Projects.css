@@ -12,6 +12,16 @@
     position: relative;
 }
 
+.project-head {
+    display: flex;
+    place-items: center;
+}
+
+.project-head img{
+    width: 30px;
+    height: 30px;
+}
+
 .project-cards {
     display: flex;
     flex-flow: column wrap;

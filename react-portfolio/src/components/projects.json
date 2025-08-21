@@ -15,7 +15,7 @@
     "name": "AInalyse",
     "description": "A webpage that helps users analyse contracts.",
     "stack": "Python, FastAPI, React, Tailwind CSS, Supabase",
-    "image": "./src/img/unify-Large.jpeg"
+    "image": "./src/img/AInalyse.jpg"
   },
   {
     "name": "Food Classifier 101",
