@@ -101,6 +101,7 @@
 
 @media (prefers-reduced-motion: reduce) {
     .project-card {
+        height: 50vh;
         animation: none !important;
         transform: translateX(0%) !important;
         opacity: 1 !important;

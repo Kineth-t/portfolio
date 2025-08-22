@@ -17,7 +17,8 @@
 }
 
 .intro h1, .intro h2, .intro h3 {
-    background: linear-gradient(to right,#D8D8D8,#C0C0C0,#ffffff);
+    /* background: linear-gradient(to right,#D8D8D8,#ffffff,#C0C0C0); */
+    background: linear-gradient(135deg, #e5e5e5 0%, #ffffff 50%, #d3d3d3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: colourTransition 6s ease infinite;

@@ -28,7 +28,7 @@ export default function HomePage() {
                         />
                     </span>
                 </h2>
-                <h3 className='headline-subtext'>Exploring the world of technology and software development at Singapore Management Unicersity(SMU).</h3>
+                <h3 className='headline-subtext'>Exploring the world of technology and software development at Singapore Management University(SMU).</h3>
             </header>
             <main>
                 <About />
