@@ -1,0 +1,80 @@
+.info-container-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:whitesmoke;
+    height:100vh;
+    position: relative;
+    background-image: url('./src/img/white-background.jpg');
+    background-size: cover;
+    background-position: top-center;
+    background-repeat: no-repeat;
+}
+
+.info-container {
+    color:black;
+}
+
+.info-container p{
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.about, .skills {
+    padding: 1rem;
+}
+
+.about *, .skills * {
+    margin: 0.5rem;
+}
+
+.about-header, .skills-header {
+    display: flex;
+    margin: 0;
+}
+
+.about h2, .skills h2 {
+    align-items: center;
+    margin: 0;
+}
+
+.info-container img {
+    width: 23px;
+    height: 23px;
+}
+
+.info-container-all > img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: calc(100% - 130px);
+}
+
+
+.skills h3 {
+    margin: 0;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.about-header img {
+    animation: bounce 2s infinite;
+    animation-delay: 0s;
+}
+
+.skills-header img {
+    animation: bounce 2s infinite;
+    animation-delay: 1s;
+}

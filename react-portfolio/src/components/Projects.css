@@ -9,7 +9,6 @@
     place-items: center;
     height: 355vh;
     background: #1a1a1a;
-    position: relative;
 }
 
 .project-head {
@@ -43,7 +42,7 @@
     box-sizing: border-box;
     animation: slideAndFade linear both;
     animation-timeline: scroll();
-    animation-range: calc(150vh + (var(--position) * 50vh)) calc((150vh + (var(--position) + 1) * 50vh));
+    animation-range: calc(250vh + (var(--position) * 50vh)) calc((250vh + (var(--position) + 1) * 50vh));
     transform: translateX(0%);
     opacity: 1;
 }
