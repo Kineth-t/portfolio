@@ -1,3 +1,94 @@
-.experiences-container {
+.experience-tab {
     padding: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.experience-header > img {
+    width: 30px;
+    height: 30px;
+}
+
+.experience-container {
+    border-left: 2px solid #00d4ff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: fit-content;
+    z-index: 3;
+    position: relative;
+}
+
+.experience {
+    border: 3px solid #00d4ff;
+    padding: 1rem;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 30px;
+    width: 50%;
+    background: whitesmoke;
+    color: black
+}
+
+.experience::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #00d4ff;
+    top: calc(50% - 10px);
+    left: -33px;
+    border-radius: 50%;
+}
+
+.background {
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    right: -10vh;
+    top: calc(50% - 50vh);
+    transform: translateX(100vw) rotate(90deg); /* Start off-screen on the right and rotated */
+    animation: bounceIn linear forwards;
+    animation-timeline: view();
+    animation-range: entry 3%;
+    z-index: 2;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        transform: translate(-10px) rotate(10deg); /* Move up slightly and rotate slightly */
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0) rotate(0); /* Final position and no rotation */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .experience {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .background{
+        width: 0;
+    }
 }
