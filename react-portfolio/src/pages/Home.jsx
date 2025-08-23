@@ -1,5 +1,6 @@
 import About from '../components/About'
 import Projects from '../components/Projects'
+import Experiences from '../components/Experiences'
 import { Typewriter } from 'react-simple-typewriter'
 import './Home.css'
 
@@ -33,51 +34,7 @@ export default function HomePage() {
             <main>
                 <About />
                 <Projects />
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
-                <div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima cupiditate expedita suscipit omnis itaque, qui quod? Recusandae omnis nostrum, amet, natus ea optio ipsam aperiam incidunt excepturi sequi molestias.
-                </div>
+                <Experiences />
             </main>
         </>
     )
