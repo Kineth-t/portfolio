@@ -11,6 +11,7 @@ export default function NavBar() {
             <main>
                 <Outlet />
             </main>
+            <footer style={{textAlign: "center"}}>&copy; 2025 Kenneth Tay. All right reserved.</footer>
         </>
        
     )

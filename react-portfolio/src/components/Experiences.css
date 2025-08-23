@@ -43,8 +43,28 @@
     position: absolute;
     background-color: #00d4ff;
     top: calc(50% - 10px);
-    left: -33px;
+    left: -34px;
     border-radius: 50%;
+}
+
+.experience-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.experience-row:last-child {
+    display: flex;
+    align-items: flex-start;
+}
+
+.experience-row:last-child p {
+    margin:0;
+}
+
+.experience-row img{
+    width: 25px;
+    height: 25px;
 }
 
 .background {
@@ -63,7 +83,7 @@
     z-index: 2;
 }
 
-.background img {
+.background-image {
     width: 100%;
     height: 100%;
 }
@@ -89,6 +109,6 @@
 
 @media screen and (max-width: 1000px) {
     .background{
-        width: 0;
+        width: 0
     }
 }

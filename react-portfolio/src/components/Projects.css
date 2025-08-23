@@ -98,6 +98,27 @@
     }
 }
 
+.caution {
+    background-color: #d1ecf1; /* Soft light blue */
+    border: 1px solid #bee5eb; /* Light blue border */
+    color: #0c5460; /* Darker blue for text */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caution strong {
+    font-weight: bold;
+    color: #0c5460; /* Darker blue for emphasis */
+}
+
+
+
 @media (prefers-reduced-motion: reduce) {
     .project-card {
         height: 50vh;

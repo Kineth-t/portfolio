@@ -9,6 +9,7 @@ export default function Projects() {
                 <img src="./src/assets/project-icon.png" alt="project icon" />
             </div>
             <h3>Here are some of the projects that I did in school or on my free time.</h3>
+            <div className="caution"><strong>Note:</strong> Some of the projects in this portfolio are hosted on school or personal servers, and due to limited resources, certain projects may not be available for viewing</div>
             <div className='project-cards'>
                 {projectData.map((project, index) =>
                     <div className="project-card" key={project.name} style={{'--position': index, zIndex: 10 - index}}>

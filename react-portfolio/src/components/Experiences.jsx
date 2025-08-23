@@ -11,14 +11,27 @@ export default function Experiences() {
             <div className="experience-container">
                 {experienceData.map(exp =>
                     <div className='experience' key={exp.description}>
-                        <h2>{exp.role}</h2>
-                        <h3>{exp.company}</h3>
-                        <p>{exp.description}</p>
+                        <div className="experience-row">
+                            <img src="./src/assets/role.png" alt="icon" />
+                            <h2>{exp.role}</h2>
+                        </div>
+                        <div className="experience-row">
+                            <img src="./src/assets/company.png" alt="icon" />
+                            <h3>{exp.company}</h3>
+                        </div>
+                        <div className="experience-row">
+                            <img src="./src/assets/date.png" alt="icon" />
+                            <p>{exp.date}</p>
+                        </div>
+                        <div className="experience-row">
+                            <img src="./src/assets/detail.png" alt="icon" />
+                            <p>{exp.description}</p>
+                        </div>
                     </div>
                 )}
             </div>
             <div className="background">
-                <img src='./src/img/experience-background.jpg' alt="Testing" />
+                <img className='background-image' src='./src/img/experience-background.jpg' alt="Just a background image" />
             </div>
         </div>
     )
