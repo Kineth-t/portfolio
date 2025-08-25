@@ -3,6 +3,7 @@ import Projects from '../components/Projects'
 import Experiences from '../components/Experiences'
 import { Typewriter } from 'react-simple-typewriter'
 import './Home.css'
+import Certifications from '../components/Certifications'
 
 export default function HomePage() {
     return (
@@ -35,6 +36,7 @@ export default function HomePage() {
                 <About />
                 <Projects />
                 <Experiences />
+                <Certifications />
             </main>
         </>
     )
