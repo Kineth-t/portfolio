@@ -2,16 +2,22 @@
     {
         "name": "Tensorflow for Deep Learning",
         "organisation": "Udemy",
-        "url": "https://www.udemy.com/certificate/UC-77ba37fd-d119-4551-be90-efd9172a4bf5/"
+        "date": "July 2025",
+        "url": "https://www.udemy.com/certificate/UC-77ba37fd-d119-4551-be90-efd9172a4bf5/",
+        "img": "./src/assets/udemy.png"
     },
     {
         "name": "Google IT Automation with Python",
-        "organisation": "Cousera",
-        "url": "https://www.coursera.org/account/accomplishments/specialization/WULILAV56OVS"
+        "organisation": "Coursera",
+        "date": "June 2025",
+        "url": "https://www.credly.com/badges/427048d3-89c6-4c84-a65e-7f0b81d57598",
+        "img": "./src/assets/google.png"
     },
     {
         "name": "Google Cybersecurity",
-        "organisation": "Cousera",
-        "url": "https://www.credly.com/badges/09fa6d85-1c60-4726-b172-f878edfa26e9/linked_in_profile"
+        "organisation": "Coursera",
+        "date": "July 2024",
+        "url": "https://www.credly.com/badges/09fa6d85-1c60-4726-b172-f878edfa26e9/linked_in_profile",
+        "img": "./src/assets/google.png"
     }
 ]
