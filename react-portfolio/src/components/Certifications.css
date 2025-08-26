@@ -2,3 +2,14 @@
     padding: 2rem;
     background: #1a1a1a;
 }
+
+.cert-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cert-header > img{
+    width: 30px;
+    height: 30px
+}

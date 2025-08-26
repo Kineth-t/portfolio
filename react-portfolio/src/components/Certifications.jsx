@@ -3,6 +3,9 @@ import './Certifications.css'
 
 export default function Certifications() {
     return <div className="certifications-container">
-        <h1>Certifications</h1>
+        <div className="cert-header">
+            <h1>Certifications</h1>
+            <img src="./src/assets/certs.png" />
+        </div>
     </div>
 }
