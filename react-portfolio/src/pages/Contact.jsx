@@ -18,6 +18,10 @@ export default function ContactPage() {
                     <img src="./src/assets/github.png" alt="Github logo" />
                     <a href='https://github.com/Kineth-t' target='_blank'>Github</a>
                 </div>
+                {/* <div className="link">
+                    <img src="./src/assets/telegram.png" alt="Telegram logo" />
+                    <a href='https://t.me/Kineth_t' target='_blank'>Telegram</a>
+                </div> */}
             </ul>
         </div>
     )
