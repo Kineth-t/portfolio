@@ -3,7 +3,7 @@
     "name": "Hearthstone Tournament",
     "description": "A website that facilitates Hearthstone card game tournaments with Elo-based matching and ranking system.",
     "stack": "Java, SpringBoot, Thymeleaf, Bootstrap CSS, PostgreSQL, Docker",
-    "image": "./src/img/unify-Large.jpeg"
+    "image": "./src/img/tournament.jpeg"
   },
   {
     "name": "Unify",
