@@ -10,7 +10,7 @@ export default function HomePage() {
         <>  
             <header className="intro">
                 <h1 className="main-headline">Hello, I'm Kenneth Tay.</h1>
-                <div className="my-photo-container"><img className='my-photo' src='./src/img/me.jpeg'/></div>
+                <div className="my-photo-container"><img className='my-photo' src='./src/img/me.png'/></div>
                 <h2 className="headline-text">
                     I'm{' '}
                     <span className="typewriter">
