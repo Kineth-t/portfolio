@@ -19,7 +19,7 @@ export default function About() {
                     <p>C &bull; Java &bull; Javascript &bull; Python &bull; SQL </p>
                     <br />
                     <h3>Frameworks/Tools</h3>
-                    <p>React &bull; FastAPI &bull; Express &bull; SpringBoot &bull; TensorFlow</p>
+                    <p>Docker &bull; Express &bull; FastAPI &bull; React &bull; SpringBoot &bull; TensorFlow </p>
                 </div>
             </div>
         </div>
