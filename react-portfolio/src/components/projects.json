@@ -22,5 +22,11 @@
     "description": "A simple machine learning project that takes in an image of a food and classifying it into 1 of the 101 types of food data.",
     "stack": "Python, FastAPI, React, CSS, Docker",
     "image": "./src/img/fv.jpeg"
+  },
+  {
+    "name": "Chatty",
+    "description": "A 1-to-1 real-time chat application, leveraging on WebSockets for asynchronous communication.",
+    "stack": "Java, SpringBoot, React, CSS, MongoDB",
+    "image": "./src/img/chatty.jpeg"
   }
 ]
